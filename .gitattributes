@@ -1,2 +1,4 @@
-assembly/* linguist-vendored
-tests_hex/* linguist-vendored
+*.asm linguist-detectable=false
+*.mem linguist-detectable=false
+assembly/** linguist-vendored=true
+tests_hex/** linguist-vendored=true
