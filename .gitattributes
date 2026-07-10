@@ -4,3 +4,6 @@ assembly/** linguist-vendored=true
 tests_hex/** linguist-vendored=true
 *.v linguist-language=Verilog
 *.vh linguist-language=Verilog
+
+# BUST CACHE: Force Linguist Rescan 01
+include/*.vh linguist-language=Verilog
